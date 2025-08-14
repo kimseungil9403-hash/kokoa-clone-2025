@@ -1,8 +1,9 @@
 .screen-header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: var(--horizontal-space);
     align-items: center;
+    margin-bottom: 10px;
 }
 .screen-header__title {
     font-size: 32px;
@@ -11,4 +12,11 @@
 }
 .screen-header__icon span{
     margin-left: 25px;
+    position: relative;
+}
+
+.screen-header__notification {
+    display: flex;
+    position: absolute;
+    left:70px
 }

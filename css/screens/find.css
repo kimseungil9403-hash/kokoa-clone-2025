@@ -1,0 +1,116 @@
+.find-icon {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: var(--main-border); */
+}
+
+.find-icon__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icon__icon i {
+    font-size: 35px;
+}
+
+.find-icon__icon span {
+    margin-top: 18px;
+}
+.recommended-friends {
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+    font-size:14px;
+    color: var(--main-title-color);
+}
+
+.recommended-friends span {
+    margin: 100px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: var(--main-title-color);
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.open-chat__header span {
+    opacity: 0.5;
+}
+
+.open-chat__post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-chat__post--title {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.open-chat__post--hashtags {
+    text-transform: uppercase;
+    opacity: 0,6;
+}
+
+.open-chat__post--member {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.open-chat__post--member img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-chat__post--member--count {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.open-chat__post--member .divider {
+    width: 2px;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 5px;
+}
+
+.open-chat__post--member--status {
+    color: #ffb0e0;
+}
+
+.open-chat__post--photo {
+    position: relative;
+}
+
+.open-chat__post--photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.open-chat__post--count {
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+}
